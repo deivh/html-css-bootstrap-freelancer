@@ -8,7 +8,7 @@
 header {
   height: 400px;
   background-color: lightgreen;
-  
+
 }
 
 nav {
@@ -35,7 +35,7 @@ header .jumbotrone [class*="col-"]{
 
 section {
   margin-top: 100px;
-  height: 400px;
+  /* height: 400px; */
   background-color: red;
 }
 

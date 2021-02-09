@@ -33,7 +33,7 @@ header .jumbotrone [class*="col-"]{
 }
 
 
-section {
+#sec1{
   margin-top: 100px;
   /* height: 400px; */
   background-color: red;
@@ -41,4 +41,10 @@ section {
 
 section [class*="col-"] {
   height: 200px;
+}
+
+
+#sec2 {
+  margin-top: 100px;
+  background-color: pink;
 }

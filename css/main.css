@@ -48,3 +48,12 @@ section [class*="col-"] {
   margin-top: 100px;
   background-color: pink;
 }
+
+#sec3 {
+  margin-top: 100px;
+  background-color: violet;
+}
+
+#sec3 [class*="col-"] {
+  background-color: grey;
+}

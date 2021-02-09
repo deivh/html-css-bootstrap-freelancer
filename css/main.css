@@ -1,0 +1,44 @@
+* {
+}
+
+/* DEBUG:  */
+
+/*  */
+
+header {
+  height: 400px;
+  background-color: lightgreen;
+  
+}
+
+nav {
+  height: 100px;
+  background-color: blue;
+}
+
+.jumbotrone {
+  height: 300px;
+}
+
+[class*="col-"] {
+  background-color: yellow;
+}
+
+header nav [class*="col-"] {
+  height: 100px;
+}
+
+header .jumbotrone [class*="col-"]{
+    height: 300px;
+}
+
+
+section {
+  margin-top: 100px;
+  height: 400px;
+  background-color: red;
+}
+
+section [class*="col-"] {
+  height: 200px;
+}

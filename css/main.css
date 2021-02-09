@@ -57,3 +57,17 @@ section [class*="col-"] {
 #sec3 [class*="col-"] {
   background-color: grey;
 }
+
+footer {
+  margin-top: 100px;
+  background-color: lightblue;
+}
+footer .contenitore [class*="col-"] {
+  height: 150px;
+  background-color: lightpink;
+}
+
+nav {
+  background-color: darkblue;
+  height: auto;
+}

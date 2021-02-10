@@ -90,14 +90,21 @@ h1 {
 
 /* regole main */
 
-/* sezione 1 */
-#sec1 {
+/* sezione 1 - portfolio */
 
+#sec1 .portfolio-img i:hover{
+  display: inline-block;
 }
 
-section [class*="col-"] {
-
+#sec1 .portfolio-img {
 }
+
+#sec1 .portfolio-img img {
+  padding: 20px;
+  height: 300px;
+  width: auto;
+}
+
 
 /* sezione 2 */
 
@@ -122,16 +129,26 @@ background-color: #1abc9c;
   color: white;
   margin-bottom: 30px;
 }
-/* sezione 2 */
 
-#sec3 {
-  margin-top: 100px;
-  background-color: violet;
+/* sezione 3 */
+
+#sec3 .section-title , #sec1 .section-title {
+  color: #345;
 }
 
-#sec3 [class*="col-"] {
-  background-color: grey;
+#sec3 form .form-ms-control{
+border: 0;
+border-bottom: 1px solid #ccc;
+width: 100%;
+padding: 30px 0;
 }
+
+#sec3 button {
+  background-color: #1abc9c;
+  margin: 10px 0;
+  color: white;
+}
+
 
 footer {
   margin-top: 100px;

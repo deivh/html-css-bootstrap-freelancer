@@ -1,37 +1,86 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+/* regole generali di pagina */
+body {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* DEBUG:  */
-
-/*  */
+/* regole header */
 
 header {
-  height: 400px;
-  background-color: lightgreen;
-
+  height: 600px;
+  background-color: #1abc9c;
 }
 
-nav {
-  height: 100px;
-  background-color: blue;
+header > nav {
+  height: 15%;
+  background-color: #345;
+  color: white;
+}
+
+nav a:hover {
+  text-shadow: 1px 1px grey;
+}
+
+header nav h3 {
+  line-height: 60px;
+}
+
+header nav .row ul li {
+  padding: 0 1%;
+  line-height: 100px;
 }
 
 .jumbotrone {
   height: 300px;
+  text-align: center;
 }
 
 [class*="col-"] {
-  background-color: yellow;
+  background-color: ;
+}
+nav a {
+  padding:10px;
+}
+nav a , .jumbotrone ul li a{
+  text-decoration: none;
+  color: white;
+}
+header nav .row ul li, .jumbotrone ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+.jumbotrone img {
+  margin-top: 50px;
+  height: 200px;
+  width: auto;
+}
+h1 {
+  color: white;
+  font-size: 60px;
 }
 
-header nav [class*="col-"] {
-  height: 100px;
+.divide-line {
+  width: 100px;
+  padding: 0 20px;
+  display: inline-block;
 }
 
-header .jumbotrone [class*="col-"]{
-    height: 300px;
+.divide-line , .fas .fa-star{
+  vertical-align: middle;
+  color: white;
 }
 
+/* regole ricorrenti pagina */
+.section-title {
+  padding-top: 30px;
+  color: white
+}
+
+h2 {
+  font-size: 3rem;
+}
+/* regole main */
 
 #sec1{
   margin-top: 100px;
@@ -65,9 +114,4 @@ footer {
 footer .contenitore [class*="col-"] {
   height: 150px;
   background-color: lightpink;
-}
-
-nav {
-  background-color: darkblue;
-  height: auto;
 }

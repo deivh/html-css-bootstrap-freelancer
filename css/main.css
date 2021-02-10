@@ -5,10 +5,21 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* regole ricorrenti pagina */
+.section-title {
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 /* regole header */
 
 header {
-  height: 600px;
   background-color: #1abc9c;
 }
 
@@ -19,7 +30,11 @@ header > nav {
 }
 
 nav a:hover {
-  text-shadow: 1px 1px grey;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #1abc9c;
 }
 
 header nav h3 {
@@ -29,10 +44,10 @@ header nav h3 {
 header nav .row ul li {
   padding: 0 1%;
   line-height: 100px;
+  font-weight: bold;
 }
 
 .jumbotrone {
-  height: 300px;
   text-align: center;
 }
 
@@ -57,7 +72,8 @@ header nav .row ul li, .jumbotrone ul li {
 }
 h1 {
   color: white;
-  font-size: 60px;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .divide-line {
@@ -71,32 +87,42 @@ h1 {
   color: white;
 }
 
-/* regole ricorrenti pagina */
-.section-title {
-  padding-top: 30px;
-  color: white
-}
 
-h2 {
-  font-size: 3rem;
-}
 /* regole main */
 
-#sec1{
-  margin-top: 100px;
-  /* height: 400px; */
-  background-color: red;
+/* sezione 1 */
+#sec1 {
+
 }
 
 section [class*="col-"] {
-  height: 200px;
+
 }
 
+/* sezione 2 */
 
 #sec2 {
-  margin-top: 100px;
-  background-color: pink;
+background-color: #1abc9c;
 }
+
+#sec2 .section-title {
+  margin: 30px;
+}
+
+#sec2 p {
+  padding: 20px 0;
+  color: white;
+}
+#sec2 > div {
+  text-align: center;
+}
+
+#sec2 > div button {
+  background-color: rgba(255, 0, 0, 0.0);
+  color: white;
+  margin-bottom: 30px;
+}
+/* sezione 2 */
 
 #sec3 {
   margin-top: 100px;

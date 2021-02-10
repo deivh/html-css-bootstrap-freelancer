@@ -41,23 +41,19 @@ nav li a:hover {
 
 header nav h3 {
   line-height: 60px;
+  font-weight: bold;
 }
 
 header nav .row ul li {
-  padding: 0 1%;
-  line-height: 100px;
+  line-height: 100px !important;
   font-weight: bold;
 }
 
 .jumbotrone {
   padding-top: 100px;
-
   text-align: center;
 }
 
-[class*="col-"] {
-  background-color: ;
-}
 nav a {
   padding:10px;
 }
@@ -177,9 +173,21 @@ footer nav {
   text-align: center;
   line-height: 50px;
 }
+/* regole di ottimizzazione xs -smartphone */
+@media all and (max-width: 991px) {
 
-@media all and (max-width:768) {
+#sec2 p{
+  font-size: 1.6em;
+}
 
+h2 {
+  font-size: 4em
+}
+
+#sec1 .portfolio-img img{
+  width: 100%;
+  height: auto;
+}
 
 
 }

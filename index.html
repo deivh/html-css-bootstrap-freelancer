@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
 
     <title></title>
@@ -12,21 +14,34 @@
     <!-- ++MACROSTRUTTURA++ -->
     <!-- INTESTAZIONE -->
     <header>
-      <nav>
+      <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
 
           <div class="row">
             <div class="col-xs-6 col-md-4" >
-              <div class="">
+              <div>
                 <h3><a href="#">START BOOTSTRAP</a></h3>
               </div>
             </div>
             <div class="col-xs-6 col-md-offset-4 col-md-4">
-                <ul>
+              <div class="vertical-pos">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+              </div>
+              </div>
+              <div class="collapse navbar-collapse">
+
+                <ul class="nav navbar-nav">
                   <li><a href="#">PORTFOLIO</a></li>
                   <li><a href="#">ABOUT</a></li>
                   <li><a href="#">CONTACT</a></li>
                 </ul>
+              </div>
             </div>
 
           </div>

@@ -24,8 +24,10 @@ header {
 }
 
 header > nav {
-  height: 15%;
-  background-color: #345;
+  position: fixed !important;
+  width: 100%;
+  height: 100px;
+  background-color: #345 !important;
   color: white;
 }
 
@@ -48,6 +50,8 @@ header nav .row ul li {
 }
 
 .jumbotrone {
+  padding-top: 100px;
+
   text-align: center;
 }
 
@@ -161,6 +165,10 @@ footer .ms-info-footer div i.fab {
   margin: 5px;
   border: 1px solid white;
   border-radius: 50%;
+}
+
+footer div {
+  text-align: center;
 }
 
 footer nav {
